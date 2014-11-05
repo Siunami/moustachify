@@ -159,7 +159,7 @@ renderMoustacheOptions = function()
   for (var i = 0; i < taches.length; i++)
   {
     style = 'style="left:'+left+'px;position:absolute;';
-    style = null;
+    style = '';
 
     $tacheContainer.append('<div class="tache-option" '+style+'><img class="svg" src="'+imgFolder+''+taches[i]['img']+'"></div>')
     left+=amount
